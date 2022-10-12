@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body
+        {
+            padding: 30px;
+        }
+        .text-giant{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron">
+        <h2>Quanto custa a pizza?</h2>
+        <form>
+            <div class = "form-group">
+                <label = for="price"> Preço </label>
+                <input type="text" class="form-control" name="price" value = "20">
+            </div>
+
+            <div class = "form-group">
+                <label = for="quantity"> Quantidade </label>
+                <input type="text" class="form-control" name="quantity" value = "1">
+            </div>
+            <button type="submit" class="btn btn-primary btn-calc"> Calcular preço </button>
+            <div class="text-right text-giant total"> $20 </div>
+        </form>
+    </div>
+
+    <script>
+        const inputPrice = document.querySelector("[name=price]");
+        const inputQuantity = document.querySelector("[name=quantity]");
+        const resultText = document.querySelector(".total");
+        const btnPrice = document.querySelector(".btn-calc");
+
+        btnPrice.addEventListener("click",calcPrice);
+
+        function calcPrice() 
+        {
+            const priceValue = inputPrice.value;
+            const quantityValue = inputQuantity.value;
+            const calculatedPrice = priceValue * quantityValue;
+
+            resultText.innerText = "$" + calculatedPrice;
+        }
+    </script>
+</body>
+</html>

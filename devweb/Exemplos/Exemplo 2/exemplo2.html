@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class = "jumbotron text-center">
+        <h1>>haha! Site go brrrrrr</h1>
+
+        <button type = "button" class = "btn-primary" onclick = "changeText()"> "Change Text?"</button>
+    </div>
+
+    <script>
+        function changeText() 
+        {
+            const header = document.querySelector("h1");
+            header.innerHTML = "NO, TEXT GO BRRRRRRR";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        body
+        {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "jumbotron text-center">
+        <button class = "btn btn-danger" onclick = "goHeehee()">
+            Heeeheeee
+        </button>
+    </div>
+
+    <div class = "jumbotron text-center">
+        <button class = "btn btn-danger black-btn">
+            Black?
+        </button>
+    </div>
+
+    <div class = "jumbotron text-center">
+        <button class = "btn btn-danger red-btn">
+            Red?
+        </button>
+    </div>
+
+    <script>
+        //1st Option
+        function goHeehee(){
+            document.body.style.background = "#F4F32F"
+        }
+
+        //2nd Option
+        const btnBlack = document.querySelector(".black-btn");
+        function PaintItBlack(){
+            document.body.style.background = "#000000";
+        }
+
+        btnBlack.onclick = PaintItBlack;
+
+        //3rd Option
+        const btnRed = document.querySelector(".red-btn");
+        function PaintItRed(){
+            document.body.style.background = "#FF0000"
+        }
+
+        btnRed.addEventListener("click", PaintItRed);
+    </script>
+    
+</body>
+</html>

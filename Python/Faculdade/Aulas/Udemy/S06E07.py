@@ -1,0 +1,15 @@
+numero1 = int(input("Informe o primeiro número: "))
+numero2 = int(input("Informe o segundo número: "))
+numero3 = int(input("Informe o terceiro número: "))
+numero4 = int(input("Informe o quarto número: "))
+quadrado1 = (numero1 * numero1)
+quadrado2 = (numero2 * numero2)
+quadrado3 = (numero3 * numero3)
+quadrado4 = (numero4 * numero4)
+if quadrado3 >= 1000:
+    print("O quadrado do terceiro número é: {0}" .format(quadrado3))
+else:
+    print("O quadrado do primeiro número é: {0}" .format(quadrado1))
+    print("O quadrado do segundo número é: {0}" .format(quadrado2))
+    print("O quadrado do terceiro número é: {0}" .format(quadrado3))
+    print("O quadrado do quarto número é: {0}" .format(quadrado4))

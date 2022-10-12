@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mini-Projeto Registrar e Login</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <form class="form" id="login">
+
+                <h1 class="formTitle">Entrar na sua conta</h1>
+                <div class="formMessage formMessageError"></div>
+
+                <div class="formInputGroup">
+                    <input type="text" id = "loginInput" class="formInput" autofocus placeholder="Usuário ou Email">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <div class="formInputGroup">
+                    <input type="password" id = "passwordInput" class="formInput" autofocus placeholder="Senha">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <button class="formButton" type="submit">Login</button>
+
+                <p class="formText">
+                    <a href="#" class="formLink">Esqueceu sua senha?</a>
+                </p>
+
+                <p class="formText">
+                    <a class="formLink" href="#" id="linkCreateAccount">Não tem uma conta? Registrar-se</a>
+                </p>
+
+            </form>
+
+            <form class="form formHidden" id="createAccount">
+
+                <h1 class="formTitle">Cadastro</h1>
+                <div class="formMessage formMessageError"></div>
+
+                <div class="formInputGroup">
+                    <input type="text" id="signupUsername" class="formInput" autofocus placeholder="Usuário">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <div class="formInputGroup">
+                    <input type="text" id = "email" class="formInput" autofocus placeholder="Endereço de e-mail">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <div class="formInputGroup">
+                    <input type="password" class="formInput" autofocus placeholder="Senha">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <div class="formInputGroup">
+                    <input type="password" class="formInput" autofocus placeholder="Confirme a sua senha">
+                    <div class="formInputErrorMessage"></div>
+                </div>
+
+                <button class="formButton" type="submit">Registrar-se</button>
+
+                <p class="formText">
+                    <a class="formLink" href="#" id="linkLogin">Já tem uma conta?</a>
+                </p>
+
+            </form>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

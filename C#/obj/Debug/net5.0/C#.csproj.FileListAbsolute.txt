@@ -1,0 +1,32 @@
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.exe
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.deps.json
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.runtimeconfig.json
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.runtimeconfig.dev.json
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.dll
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\ref\C#.dll
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.pdb
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.csproj.AssemblyReference.cache
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.AssemblyInfoInputs.cache
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.AssemblyInfo.cs
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.dll
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\ref\C#.dll
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.pdb
+C:\Users\esdra\OneDrive\Área de Trabalho\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.genruntimeconfig.cache
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.exe
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.deps.json
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.runtimeconfig.json
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.runtimeconfig.dev.json
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.dll
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\ref\C#.dll
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\bin\Debug\net5.0\C#.pdb
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.csproj.AssemblyReference.cache
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.AssemblyInfoInputs.cache
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.AssemblyInfo.cs
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.dll
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\ref\C#.dll
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.pdb
+C:\Users\Esdras Mateus\Desktop\Programação\VS Code Workspace\C#\obj\Debug\net5.0\C#.genruntimeconfig.cache

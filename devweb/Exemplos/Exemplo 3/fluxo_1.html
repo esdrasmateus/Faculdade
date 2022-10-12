@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test if</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body
+        {
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class = "dog-list"></div>
+
+        <script>
+
+            /*
+            const name = prompt("Qual o seu nome?");
+            if (name == "hehe") alert("Oi hehe");
+            else if (name == "hehehe") alert("Hehehehe");
+            else alert("IF GO BRRRRRRRR");
+            */
+
+            const dogs = 
+            [
+                {name: 'hehe ', type: 'laugh'},
+                {name: 'eheh', type: 'jk'}
+            ];
+
+            let node = document.querySelector('.dog-list');
+
+            for (let i = 0; i < dogs.length; i++)
+            {
+                const dog = dogs[i];
+                const dogData = document.createElement('div');
+                dogData.classList.add('jumbotron', 'text-center');
+                dogData.innerText = dog.name + " é um " + dog.type;
+                node.appendChild(dogData);
+            };
+
+        </script>
+</body>
+</html>
